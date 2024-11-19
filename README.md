@@ -21,10 +21,15 @@ A web application that generates interactive 3D point cloud visualizations from 
 ## Technologies Used
 
 - [Next.js](https://nextjs.org/) - React framework for production
-- [React](https://reactjs.org/) - UI library
+- [React](https://reactjs.org/) 19.0.0-rc (Canary) - UI library
 - [TypeScript](https://www.typescriptlang.org/) - Type-safe JavaScript
 - [Three.js](https://threejs.org/) - 3D graphics library
 - [TailwindCSS](https://tailwindcss.com/) - Utility-first CSS framework
+
+## Prerequisites
+
+- Node.js 18.17 or later
+- npm 9.6.7 or later
 
 ## Getting Started
 
@@ -36,7 +41,7 @@ cd 3d-point-cloud
 
 2. Install dependencies:
 ```bash
-npm install
+npm install --legacy-peer-deps
 ```
 
 3. Run the development server:
@@ -45,6 +50,12 @@ npm run dev
 ```
 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser
+
+## Important Notes
+
+- This project uses React 19.0.0-rc (Canary version) which may have compatibility issues with some testing libraries
+- When installing dependencies, use `--legacy-peer-deps` flag due to React 19 compatibility
+- The application is optimized for modern browsers
 
 ## Usage
 
@@ -81,3 +92,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Create comprehensive unit and integration tests
 - [ ] Enhance cross-browser compatibility
 - [ ] Optimize for mobile devices
+- Implement comprehensive test suite
+- Add advanced error handling
+- Explore server-side rendering options
+- Optimize for mobile devices
+- Implement advanced point cloud algorithms
