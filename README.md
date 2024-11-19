@@ -2,7 +2,9 @@
 
 A web application that generates interactive 3D point cloud visualizations from uploaded images. Built with Next.js, React, TypeScript, and Three.js.
 
-![3D Point Cloud Generator](public/screenshot.png)
+https://github.com/harukaapps/3d-point-cloud/assets/188396589/edb96b75-f656-4192-8487-81ad9a1ae90c
+
+![3D Point Cloud Demo](public/images/demo.png)
 
 ## Features
 
